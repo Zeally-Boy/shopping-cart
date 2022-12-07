@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>My Shopping Cart</title>
+  <link rel="stylesheet" href="button.css">
+  <script src="button.js" type="text/javascript"></script>
+</head>
+
+<body>
+
+  <body style="font-size: 12px;">
+    <div id="app" data-server-rendered="true">
+      <div class="container" data-v-92f23492>
+        <header class="header-body" data-v-024315e4 data-v-92f23492>
+          <div class="box-header" data-v-024315e4><a href="/" data-v-024315e4><img src="image/Jascube LOGO.png"
+                alt="logo" class="logo" data-v-024315e4></a>
+            <div style="display: flex;flex:1;align-items: center" data-v-024315e4><span class="region" style="display:;"
+                data-v-024315e4><img
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAISSURBVHgBtVfLbcJAEB1DgCsdBDqgg2DxOaeD4AoiKoipIKGCOBUYTkj87A5ICU4FcQNA3iBbQtg7u2uUJ1ngmVm/ne/aDhkiDMM28Ho+n/u4ehC1We44zjfu+VoOh8OF6fMcnUFOeDqdfNIjgZ03Go1inaFIvFqtOs1mM8LfDlmgVqv5ruvOqApxVVJT8ppK0Wq1PquSMjg1m82mTzbEu91uwkVEd6Jer7+RDTEq9YUEYFMxPJrxhdtEsOurvH64FXBuJW+Px6M3Ho+DKxGH1EdOS72DnJ2IC/JbQaPR6JEaHzekF6B9fEQpVqzplwkLxNlwKAW8/RJ0S4WqQybE2HmbFECx/Kp0CGmq0qFYH7XEElBMXUH9RBYoC7Vy5/D4PYqiQkS4IPEzUa0bDAY/WmIe+or1l/zD60PeIjzHuecx4Q7CmtLnFdoJXnGPkoAO8hmBkEygcqTgMeZrKrSGNVDtczIhzozFk8UUCPMCfW/mMYPPUyya031IkbapSqlsJyzySZjDOvAcR9oSlV58EViv1z1s4ED2CNBCnmQgDpAsP1OyQ4Kq19aI9p2Lsd/vI4vz2YO3gc7IaGSivThsqYFpYEJqTJwViS58HGLjtBiFOocUclSxa/Jam8PqdFKFnFvHhvTyLLLEdrt9xgbCK1GCvHbJElYeM/gz5XqqIa8uVYA1MSOfarrp9C/gqUZ34A941uwVg4dwyAAAAABJRU5ErkJggg=="
+                  alt data-v-024315e4> <span data-v-024315e4>
+                  Nigeria
+                </span>
+                <!---->
+                <!---->
+              </span>
+              <div class="search" data-v-024315e4><img
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGLSURBVHgB5ZeBTcMwEEU/XYCOcBuQDfAIbIBH6AaECcoGLRPABs0IMEFggnQDOCsOObtuYjtGleBJX42inu/n7Jwd4L9zhXSIVbHWrKNVg19GsbasjvV1RgeWRmGI9TKRNKTWxkUxNQWVTU7inin3M+vNM3mLvkqSmvWITExyWe42kMCHWHu41XhABmQTDoPs0S+4WDaeCYVEdl7yHDTc6kU/AOUGBngSY9WxQfLpNZZhzA/rqIsNGgJalEFWQYX+sBLXQ3czNCjDqzf+pAES1+8og+wXN5gxIBfcEWWYHWeFCyMNyHJVKIMc5xMzBj4wliw4Xxkocd3EBBwwvjYlqjC09Og+oODu70vQYqxdSqCswgZ5ENwNjVKCFdzdLNUEeclrZOBvqVvEPYXG6bHtHpnUOD1qmblUGJuW+a2s4QPOH9OyTdzBLWeMOmtIY9lU/rC2wXNGTGKz+5GI1Zg5oqV+Fyj0JSfWtb1nOlyDvpOGer+G+xrWWHBYzUVj4TmxtAnChSCU2+j+CN94YqsGa9vaigAAAABJRU5ErkJggg=="
+                  alt data-v-024315e4> <input placeholder="Search Something" type="text" value="" data-v-024315e4>
+                <div class="btn" data-v-024315e4>Search</div>
+              </div>
+              <div class="iconGroup" data-v-024315e4><img
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAsCAYAAAANUxr1AAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAANWSURBVHgB7Vg9WttAEB0p9BEnQHABnBMgcwGgS4d9gsAJsE8AVCkxXTqcCyBRpoo5AZsToDIV5j1pFmQjWZbkHwq/75NnvZrdfTvanZ0dRxogCALPdd3L8Xh8zP+O4wxfXl7OoyiKpSZcaQAl00HR4IlZRt2NNIAjNUHrwCLPIPEbFjnWuhB1Aeq261qpiYW8pAPXNW+daRnyq9REbQsR7Xb7mRIWuQYJiHEPf+MwDLfz9GHBFgQfWs/AiqPGhNBpAHGKT8PP5BWoxbrAbzFoxDb4f6lksjCYRB8qg8qEtNMLFjOdRZCPks5YlGALegeQviWn9Vz0t5DWKuzvNCHhOL37+/v+XIR0a1+gs7NMp0POvKSdj4FudAIk30YTk6MTkjzen+D90Jmj0ztJTR2hUXe601nAGnvSwXaL2ukYfyVde7vODDKeKrLBNUx6JhXABcz2IDMAmW6J7hV0f0D3W+G2p9NTMv2qZBS+ysc5dO26am3lvQXjDr0uZwcz9qQe7A6s4iBjN4eMp7vJ4OlLfUT8gaVbZYrQOdCiyftk9C+++gcjddmgLd0CnlMu3CI9vrPnIR3lB0JcXJKaOZLmoIVp8TCPVGbb09t/9EOq8JQ9MJsCffZ0CXCyA3jvB5bxmfbVMp5unF5SP9Xefu+hLAiYWI/+S1Ln2KGz5KOONnGYlgyxVUDIyAKhZ9VAD1df0h04yjtcpwlRmeZ8kiVACYxm6TSKGJtCLTaBtRGyR9Ph4eGVfAZCop4cu24iulzrJ8vDhlAZNoTKsCFUhs9NCJ5zHyLG6ftPlgwN/nih9CWPEONoiBbCgYWFHmXAWKN06OQ2/E5IA7MLrWsSR1fFOX8YH9mI0tUKe3vsNomjq4LhiAZvb6Gso3f2cJ4L3bIACgPe8xk90kK+1j/I+hCp9EjIsJS5G60c2XtZcuuwqbjsrWCFZI6YNGU+Ce7mxMbUXVQydcJbQUdWCIxLETF7y8L0vSyQ9zVVhEAX4ECK190RM2zMmmCgUUl/E7ePOim9JPuKYoRERDtPZ568UBG+SEUYY/77vr8NUt/39vZaOzs7f1AXW7Ko+ympFa9B+JdURK0sLAeGuONG0KpI0qDdV1lovaUQyhDraHLC3q+Y7bjNZlWr4hWhn6yMdwW5XAAAAABJRU5ErkJggg=="
+                  alt class="notice" data-v-024315e4></div> <a href="/signin" data-v-024315e4><span class="login"
+                  data-v-024315e4>
+                  Log in
+                </span></a> <a href="/mine/adverts" data-v-024315e4><span class="login" style="display:none;"
+                  data-v-024315e4>
+                  My Profile
+                </span></a> <a href="/post/cate" data-v-024315e4>
+                <div class="sell" data-v-024315e4>
+                  Start Selling
+                </div>
+              </a>
+            </div>
+          </div>
+        </header>
+        <img src="image/BANNER.jpg" width="60%" height="500px">
+        <div class="icon-media">
+          <div class="row">
+            <div class="column">
+              <a href="#" class="social-icon">
+                <i class="fas fa-car"></i>
+              </a>
+              <h3>Cars</h3>
+            </div>
+            <div class="column">
+              <a href="#" class="social-icon">
+                <i class="fa fa-home"></i>
+              </a>
+              <h3>House for sale</h3>
+            </div>
+            <div class="column">
+              <a href="#" class="social-icon">
+                <i class="fa-solid fa-house-user"></i>
+              </a>
+              <h3>House to Let</h3>
+            </div>
+            <div class="column">
+              <a href="#" class="social-icon">
+                <i class="fas fa-couch"></i>
+              </a>
+              <h3>Home & Kids</h3>
+            </div>
+            <div class="column">
+              <a href="#" class="social-icon">
+                <i class="fa-solid fa-mobile"></i>
+              </a>
+              <h3>Phones</h3>
+            </div>
+            <div class="column">
+              <a href="#" class="social-icon">
+                <i class="fa fa-bag-shopping"></i>
+              </a>
+              <h3>Bags</h3>
+            </div>
+            <div class="column">
+              <a href="#" class="social-icon">
+                <i class="fa-solid fa-briefcase"></i>
+              </a>
+              <h3>Jobs</h3>
+            </div>
+            <div class="column">
+              <a href="#" class="social-icon">
+                <i class="fa-solid fa-tv"></i>
+              </a>
+              <h3>Electronics</h3>
+            </div>
+            <div class="column">
+              <a href="#" class="social-icon">
+                <i class="fa-brands fa-servicestack"></i>
+              </a>
+              <h3>Services</h3>
+            </div>
+            <div class="column">
+              <a href="#" class="social-icon">
+                <i class="fas fa-truck"></i>
+              </a>
+              <h3>Trucks</h3>
+            </div>
+            <div class="column">
+              <a href="#" class="social-icon">
+                <i class="fa-solid fa-ring"></i>
+              </a>
+              <h3>Jewelries</h3>
+            </div>
+            <div class="column">
+              <a href="#" class="social-icon">
+                <i class="fas fa-tshirt"></i>
+              </a>
+              <h3>Clothing</h3>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <marquee>Our Products</marquee>
+          <div class="rob">
+            <div class="col">
+              <img src="image/advert car.png" width="200px" height="200px">
+            </div>
+            <div class="col">
+              <img src="image/shoe jack.jpg" height="200px" width="250px">
+            </div>
+            <div class="col">
+              <img src="image/roller.jpg" width="250px" height="200px">
+            </div>
+            <div class="col">
+              <img src="image/1 (1).jpg" width="250px" height="200px">
+            </div>
+            <div class="col">
+              <img src="image/1.jpg" width="250px" height="200px">
+            </div>
+            <div class="col">
+              <img src="image/adidas.jpg" width="250px" height="200px">
+            </div>
+            <div class="col">
+              <img src="image/bag.jpg" width="250px" height="200px">
+            </div>
+            <div class="col">
+              <img src="image/bag.png" width="250px" height="200px">
+            </div>
+            <div class="col">
+              <img src="image/clothing.png" width="250px" height="200px">
+            </div>
+            <div class="col">
+              <img src="image/olist.benz.jpg" width="250px" height="200px">
+            </div>
+            <div class="col">
+              <img src="image/olist.curve.jpg" width="250px" height="200px">
+            </div>
+            <div class="col">
+              <img src="image/olist.highlander.jpg" width="250px" height="200px">
+            </div>
+            <div class="col">
+              <img src="image/groceries.png" width="250px" height="200px">
+            </div>
+            <div class="col">
+              <img src="image/olist1.jpg" width="250px" height="200px">
+            </div>
+            <div class="col">
+              <img src="image/maggi.jpg" width="250px" height="200px">
+            </div>
+            <div class="col">
+              <img src="image/olist.men.jpg" width="250px" height="200px">
+            </div>
+            <div class="col">
+              <img src="image/ring.png" width="250px" height="200px">
+            </div>
+            <div class="col">
+              <img src="image/rubic.png" width="250px" height="200px">
+            </div>
+            <div class="col">
+              <img src="image/1 (1).jpg" width="250px" height="200px">
+            </div>
+            <div class="col">
+              <img src="image/laptop.png" width="250px" height="200px">
+            </div>
+            <div class="col">
+              <img src="image/sweet berry.jpg" width="250px" height="200px">
+            </div>
+            <div class="col">
+              <img src="image/slimming.png" width="250px" height="200px">
+            </div>
+            <div class="col">
+              <img src="image/mobile-accessories_220x220.png" width="250px" height="200px">
+            </div>
+            <div class="col">
+              <img src="image/gaming_260x144.png" width="250px" height="200px">
+            </div>
+            <div class="col">
+              <img src="image/apple.jpg" width="250px" height="200px">
+            </div>
+            <div class="col">
+              <img src="image/relaxation.jpg" width="250px" height="200px">
+            </div>
+            <div class="col">
+              <img src="image/stem pic.jpg" width="250px" height="200px">
+            </div>
+            <div class="col">
+              <img src="image/bracelet.jpg" width="250px" height="200px">
+            </div>
+            <div class="col">
+              <img src="image/cocacola.jpg" width="250px" height="200px">
+            </div>
+            <div class="col">
+              <img src="image/watch.jpg" width="250px" height="200px">
+            </div>
+          </div>
+        </div>
+        <div class="foot">
+          <footer>
+            <div class="btn">
+              <input type="button" class="button1" value="red" onclick="red()">
+              <input type="button" class="button2" value="lime" onclick="lime()">
+              <input type="button" class="button3" value="blue" onclick="blue()">
+            </div>
+            <p>@ copyright 2022......Alabi Ayomide......Follow Up:</p>
+            <!--<div class="input-field">
+              <i class="fas fa-envelope"></i>
+              <input type="email" placeholder="Email">
+            </div>-->
+            <div class="social-med">
+              <a href="#" class="social-ic">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#" class="social-ic">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#" class="social-ic">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="#" class="social-ic">
+                <i class="fab fa-snapchat"></i>
+              </a>
+            </div>
+          </footer>
+        </div>
+
+
+
+  </body>
+
+</html>
